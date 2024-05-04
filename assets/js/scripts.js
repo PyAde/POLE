@@ -7,7 +7,9 @@ document.querySelector('#hamburger').onclick = () => {
 const hamburger = document.querySelector('#hamburger');
 
 document.addEventListener('click', function(event){
-	if(!hamburger.contains(event.target) && !navbarActive.contains(event.target));
+	if(!hamburger.contains(event.target) && !navbarActive.contains(event.target)){
+    navbarActive.classList.remove('active')
+  }
 })
 
 
