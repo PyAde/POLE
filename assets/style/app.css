@@ -114,7 +114,7 @@ body {
 .hero .container {
   position: relative;
   z-index: 1;
-  max-width: 15rem;
+  max-width: 20rem;
 }
 
 .hero .title1,
@@ -409,6 +409,9 @@ body {
     transform: scaleX(0.2);
   }
 
+  .container{
+
+  }
   .hero .title2 {
     display: flex;
     flex-direction: column;
